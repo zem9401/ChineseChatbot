@@ -6,23 +6,30 @@ nlu:
     - hey
     - hello
     - hi
-    - hello there
     - good morning
     - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
     - good afternoon
+    - 你好
+    - 你好啊
+    - 早上好
+    - 晚上好
+    - hello
+    - hi
+    - 嗨
+    - 嗨喽
+    - 见到你很高兴
+    - 嘿
+    - 早
+    - 上午好
+    - hello哈喽
+    - 哈喽哈喽
+    - hello hello
+    - 喂喂
 
 - intent: goodbye
   examples: |
     - good afternoon
-    - cu
-    - good by
-    - cee you later
+    - see you later
     - good night
     - bye
     - goodbye
@@ -30,63 +37,133 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - 别逼逼叨叨，滚犊子，hhh
+    - 88
+    - 886
+    - 再见
+    - 拜
+    - 拜拜
+    - 拜拜，希望能再次遇到你
+    - 下次见
+    - 回头见
+    - 下次再见
+    - 下次再聊啦
+    - 有空再聊
+    - 先这样吧
+    - 好了，就说这么多了
+    - 好了，先这样
+    - 没事
+    - 回头见
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - 是的
+    - 当然
+    - 好的
+    - ok
+    - 嗯
+    - 可以
+    - 你可以这么做
+    - 你做得可以啊
+    - 同意
+    - 听起来不错
+    - 是这样的
+    - 的确是这样子的
+    - 我同意你的观点
+    - 对的
+    - 好滴
+    - 行
+    - 还行
+    - 当然可以
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - 棒棒棒
+    - 蛮开心的
+    - 挺不错的啊
+    - 很好啊
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - 有点沮丧
+    - 难过呀
+    - 非常难受
+    - 不好
+    - 不是很好
+    - 好难过
+    - 难过
+    - 不开心
 
-- intent: bot_challenge
+- intent: whoareyou
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - 你是谁
+    - 我知道你吗
+    - 谁
+    - 我认识你吗
+    - 这是谁啊
+    - 是谁
+    - 请问你是谁
+    - 请问我认识你吗
+    - 你是哪位
+    - 你是？
+    - 是谁？
+    - 可以告诉我你的名字吗
+    - 你叫什么名字
+
+- intent: whattodo
+  examples: |
+    - 你支持什么功能
+    - 你有什么功能
+    - 你能干什么
+    - 你能做什么
+    - 你都知道一些什么
+
+- intent: thanks
+  examples: |
+    - 谢谢
+    - thanks
+    - thank you
+    - 真的太感谢你了，帮了我大忙
+    - 谢谢你帮了我大忙
+    - 你帮了我大忙，谢谢你小智
+    - 非常感谢
+    - 谢了
+
+- intent: nothanks
+  examples: |
+    - 不用谢
+    - 这是我应该做的
+    - 不用谢呀，不用~
+    - 应该的
+    - 说的我都不好意思了
+    - 哎呀，不用
+
+- intent: deny
+  examples: |
+    - 不
+    - no
+    - 不可以
+    - 不是的
+    - 不认同
+    - 否定
+    - 不是这样子的
+    - 我不同意你的观点
+    - 不同意
+    - 不好
+    - 你长得很美，就不要想得太美。
+    - 拒绝
+    - 不行
+    - 不用
+    - 不要
+
+- intent: request_restaurant
+  examples: |
+    - 饭店
+    - 小吃
+    - 肯德基
+    - 查询饭店
+    - 帮我查附近饭店信息
+    - 我想知道[附近](address)的饭店情况
+    - [万达广场](address)的吃的地方
+
+
