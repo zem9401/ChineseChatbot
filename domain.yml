@@ -19,7 +19,7 @@ slots:
     type: unfeaturized
 
 entities:
-  - date-time
+  - food_shop
   - address
 
 responses:
@@ -81,3 +81,23 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+forms:
+  food_form: {}
+
+actions:
+- food_form
+- utter_default
+- utter_request_restaurant
+- utter_whattodo
+- utter_iamabot
+- utter_whoareyou
+- utter_deny
+- utter_affirm
+- utter_goodbye
+- utter_happy
+- utter_did_that_help
+- utter_thanks
+- utter_cheer_up
+- utter_greet
+

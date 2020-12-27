@@ -162,7 +162,7 @@ nlu:
     - 小吃
     - 肯德基
     - 查询饭店
-    - 帮我查附近饭店信息
+    - 帮我查查[佛山](address)的美食店铺有[店铺](food_shop)
     - 我想知道[附近](address)的饭店情况
 
 - intent: bot_challenge
