@@ -65,6 +65,9 @@ responses:
   utter_whoareyou:
   - text: "您好！我是Jarvis呀，您的AI智能助理"
 
+  utter_iamabot:
+  - text: "您好！我是Jarvis呀，您的AI智能助理"
+
   utter_whattodo:
   - text: "您好！很高兴为您服务，作为干饭人，我目前只支持查询饭店哦。"
 
